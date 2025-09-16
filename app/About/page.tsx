@@ -200,7 +200,7 @@ export default function AboutPage() {
               asChild
               className="rounded-full bg-primary px-8 py-3 text-primary-foreground hover:bg-primary/90 shadow-lg hover:shadow-xl transition-all duration-300"
             >
-              <a href="https://wa.link/rc25na" target="_blank" rel="noopener noreferrer">
+              <a href=" " target="_blank" rel="noopener noreferrer">
                 Start Your Project
               </a>
             </Button>

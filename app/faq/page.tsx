@@ -169,7 +169,7 @@ export default function FAQPage() {
                   asChild
                   className="rounded-full bg-[#ffe66d] px-8 py-3 text-black font-semibold shadow-[0_0_20px_rgba(255,230,109,0.35)] hover:bg-[#ffd93d] transition-all duration-300"
                 >
-                  <a href="https://wa.link/rc25na" target="_blank" rel="noopener noreferrer">
+                  <a href=" " target="_blank" rel="noopener noreferrer">
                     Contact Our Team
                   </a>
                 </Button>

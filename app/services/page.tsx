@@ -337,7 +337,7 @@ export default function ServicesPage() {
                     className="rounded-full px-8 py-3 text-black font-semibold hover:brightness-95 transition-all"
                     style={{ backgroundColor: ACCENT }}
                   >
-                    <Link href="https://wa.link/rc25na" target="_blank">
+                    <Link href=" " target="_blank">
                       Start Your Project Today
                     </Link>
                   </Button>
