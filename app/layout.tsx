@@ -4,6 +4,8 @@ import type { Metadata } from "next"
 import { Inter, Dancing_Script, DM_Serif_Text } from "next/font/google"
 import Script from "next/script"
 import Plasma from "@/components/plasma"
+import { Analytics } from '@vercel/analytics/next';
+
 
 const inter = Inter({ subsets: ["latin"], display: "swap" })
 const dancingScript = Dancing_Script({
@@ -89,6 +91,7 @@ export default function RootLayout({
           <Plasma color="#8b5cf6" speed={0.8} direction="forward" scale={1.5} opacity={0.4} mouseInteractive={true} />
         </div>
         <div className="relative z-10">{children}</div>
+        <Analytics />
       </body>
     </html>
   )
